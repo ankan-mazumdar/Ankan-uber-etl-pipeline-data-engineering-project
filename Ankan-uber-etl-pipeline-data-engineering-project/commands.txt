@@ -1,0 +1,52 @@
+# Install Python and pip 
+sudo apt-get update
+
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+sudo apt-get install -y python3-pip
+
+
+# Install Mage
+sudo pip3 install mage-ai --break-system-packages
+sudo pip3 install db-dtypes --break-system-packages
+# Install Pandas
+sudo pip3 install pandas --break-system-packages
+sudo pip3 install dask[dataframe] --break-system-packages
+# Install Google Cloud Library
+sudo pip3 install google-cloud --break-system-packages
+
+sudo pip3 install google-cloud-bigquery --break-system-packages
+sudo pip3 install dbt-bigquery --break-system-packages
+
+#mage project
+mage start uber_de_pipe_project
+
+#Click on your VM-instance->Network_interfaces ->click nic0--> hover left side firewall-> create firewall rule(watch video)
+
+
+#mage-ai UI - pipeline--> new pipeline--> name--> new + data loader --> python-> API
+
+#copy URL from storagecloud-bucket->
+https://storage.googleapis.com/uber_data_engineering_ankan/uber_data.csv
+
+#transformer --> python--> generic
+#data exporter to BQ
+
+# API-> credentials-> create service--> name--> role BQ admin
+click on service acct--> keys-> create json --key get downloaded --Copy all params
+
+#Bigquery--> create Dataset --> copy name and paste it datasetIDname.fact_table
+
+#Data exporter code -->convert df to Data in param as earlier in transformation we were reading DF into json(dictionary)
+
+#Bigquery
+
+
+
+
