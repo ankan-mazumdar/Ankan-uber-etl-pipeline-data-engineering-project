@@ -46,7 +46,7 @@ More info about dataset for analysis:
 <img src="images/MageSSH.png">
 
 ## Mage-ai UI for ETL
-
+<img src="images/Mage-ai ETL.png">
 
 ## Data loaded from Bucket to BQ using Mage-ai
 <img src="images/BQ.png">
