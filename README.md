@@ -20,6 +20,7 @@ Modern Data Pipeine Tool - https://www.mage.ai/
 
 Contibute to this open source project - https://github.com/mage-ai/mage-ai
 
+Looker dashboard Link- https://lookerstudio.google.com/reporting/6f7ba70f-d77c-4f51-a9a3-2ea702b2a4fb
 
 ## Dataset Used
 TLC Trip Record Data
